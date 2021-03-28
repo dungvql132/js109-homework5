@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 15%;
+}
+
+.setcolum{
+    flex-direction: column;
+}
+
+#imgWEA{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.main{
+    margin-top: 20px;
+    border-radius: 20%;
+    border-style: groove;
+    box-shadow: 15px 15px rgb(170, 141, 141);
+    filter: blur(10%);
+}
+
+.redColor{
+    color: red;
+}
+
+#head{
+    font-size: large;
+}

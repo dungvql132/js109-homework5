@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body>
-
-    <h1>Cloud Cafe</h1>
-
-    <div class="content">
-
-        <form id="add-cafe-form">
-            <input type="text" name="name" placeholder="cafe home">
-            <input type="text" name="city" placeholder="cafe city">
-            <button type=""> add </button>
-        </form>
-
-        <ul id="cafe-list">
-            <li><span>ten quan cafe</span><span>tên thành phố</span></li>
-        </ul>
-
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  </head>
+  <body>
+    <form action="" id="input_form">
+      <input type="text" name="inputTXT" />
+      <button value="ok" name="btn">hien thi</button>
+    </form>
+    <div id="appear_form" class="container setcolum main">
+        <span id="head">WEATHER</span>
+        <span id='review' class="redColor">review</span>
+        <img id="imgWEA" src="icons/unknown.png" alt="anh thoi tiet">
+        <span id='temp'>tem??</span>
+        <span id='city'>city??</span>
     </div>
 
-    <script src="app.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
